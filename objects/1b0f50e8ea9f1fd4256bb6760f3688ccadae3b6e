@@ -1,7 +1,3 @@
-[map "f4e368db-ec29-3c84-be15-24da13333e5e"]
-	object = 690968d415f25a37fdc060500fea46b1c47a3590
-	path = Interfaces
-	type = extract module
 [module "53608f3a-13ca-3189-ada3-48c0a682036c"]
 	conflict = request-pull
 	path = Interfaces
@@ -9,3 +5,8 @@
 	pull = squash once
 	ref = if refs/heads/main sync refs/heads/main
 	url = agnostic://gh/685035720
+[map "32b0dd65-7ed6-300a-9727-5f7385e93b2b"]
+	object = 690968d415f25a37fdc060500fea46b1c47a3590
+	path = Interfaces
+	stage = pull-request
+	type = extract module
