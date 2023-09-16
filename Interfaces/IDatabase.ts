@@ -130,5 +130,4 @@ export interface IDatabase {
    * @param { string } html    The actual HTML to update the link record with.
    */
   update_link_html( feed_id: number, link: string, html: string ): Promise<void>;
-
 }
